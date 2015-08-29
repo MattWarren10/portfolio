@@ -285,6 +285,15 @@ a:hover {
   color: #777;
 }
 
+#projects a:visited {
+  
+}
+
+#projects a:active {
+  color: #777;
+  text-decoration: underline;
+}
+
 #about {
   background: #474747;
   color: #dfdfdf;

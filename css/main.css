@@ -1,0 +1,296 @@
+@import 'normalize.css';
+@import url(https://fonts.googleapis.com/css?family=Biryani:200,900|Poiret+One);
+
+/*============GENERAL============*/
+
+body {
+  font-family: 'Biryani', verdana, helvetica, arial, sans-serif;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+  
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Biryani', verdana, helvetica, arial, sans-serif;
+  font-weight: 900;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: 200;
+
+}
+
+h5 {
+  font-family: 'Biryani', verdana, helvetica, arial, sans-serif;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+  
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+/*============HEADER============*/
+header {
+  float: left;
+  margin-bottom: 20px;
+  padding: 5px 0 0 0;
+  width: 100%;
+  
+}
+
+#logo {
+  width: 65%;
+  text-align: left;
+  margin: 0;
+  padding-left: 2.5%;
+  line-height: 1.5em;
+  float: left;
+
+}
+
+.sub-header {
+  width: 20%;
+  text-align: right;
+  margin: .9em 1em 0 0;
+  padding: 0 2.5%;
+  font-family: 'Biryani', verdana, helvetica, arial, sans-serif;
+  font-weight: 200;
+  line-height: 1em;
+  float: left;
+  
+}
+
+
+
+/*============NAVIGATION============*/
+
+nav {
+  text-align: left;
+  display: block;
+  clear:left;
+
+
+}
+
+nav ul {
+  list-style: none;
+  display: inline;
+  padding: 0;
+
+  
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  padding: 15px 2.5%;
+}
+
+/*============PROJECT LIST============*/
+
+.project-header {
+  padding: 0 0 5% 5%;
+}
+
+#projects {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 5% 0;
+}
+
+#projects li {
+  width: 35%;
+  display: inline-block;
+  margin: 0;
+  padding: 0 7.5% 2.5%;
+}
+
+#projects li img {
+  max-width: 100%;
+  border-radius: 2.5%;
+}
+
+#projects li:nth-child(2n+1) {
+  clear: left;
+  float: left;
+}
+
+#projects p:hover {
+  text-decoration: none;
+}
+
+
+
+/*============ABOUT============*/
+
+#about {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#about h3 {
+  padding: 5% 0 0 5%;
+}
+
+#about h4 {
+
+}
+
+#about h4 {
+  padding: 0 2% 0 5%;
+  margin-top: 0;
+}
+
+#about p {
+  padding: 0 5% 5% 5%;
+  margin: 0;
+}
+
+.profile-photo {
+  margin: 10px 30px 0 5%;
+  max-width: 6.25em;
+  padding: 0;
+  border-radius: 100%;
+  float: left;
+}
+
+/*============SOCIAL MEDIA LINKS============*/
+
+#contact {
+  clear: left;
+}
+
+#contact h3 {
+  padding: 5% 0 0 5%;
+}
+
+.constraint {
+  width: 400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#contact .constraint ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+#contact .constraint ul li {
+  display: inline-block;
+  max-width: 25%;
+  padding: 0;
+  margin: 0 9%;
+  
+}
+
+#contact .constraint img {
+    width: 11px;
+    margin: 15px 0;
+    padding: 5px; 
+    min-width: 11px;
+    max-width: 11px;
+    max-height: 11px; 
+  }
+
+
+
+
+.social-icon {
+  border: 2px solid #474747;
+  border-radius: 15%;
+}
+
+.social-icon:hover {
+  border: 2px solid #ccc;
+  border-radius: 15%;
+}
+
+
+
+
+
+/*============FOOTER============*/
+
+footer {
+  text-align: center;
+}
+
+/*============COLORS============*/
+body {
+  color: #fff;
+  
+}
+
+header {
+  background: #222;
+  color: #dfdfdf;
+}
+
+h4 {
+  color: #222;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.project-header {
+  background-color: #dfdfdf;
+  color: #474747;
+
+}
+
+#projects {
+  background: #dfdfdf;
+  color:#474747;
+}
+
+#projects a {
+  color: #474747;
+}
+
+#projects a:hover {
+  color: #777;
+}
+
+#about {
+  background: #474747;
+  color: #dfdfdf;
+}
+
+#contact {
+  background: #222;
+  color:#ccc;
+}
+
+footer {
+  color:#777;
+}
+

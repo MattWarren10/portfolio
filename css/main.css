@@ -48,6 +48,7 @@ header {
   margin-bottom: 20px;
   padding: 5px 0 0 0;
   width: 100%;
+
   
 }
 
@@ -242,8 +243,9 @@ body {
 }
 
 header {
-  background: #222;
+  background: #333;
   color: #dfdfdf;
+  border-bottom: #474747 5px solid;
 }
 
 h4 {

@@ -125,7 +125,7 @@ nav ul li a {
 #projects li img {
   max-width: 100%;
   border-radius: 1.5%;
-box-shadow: 0 3px 2px 0 rgba(34, 34, 34, .2);
+  box-shadow: 0 3px 2px 0 rgba(34, 34, 34, .2);
 }
 
 #projects li:nth-child(2n+1) {

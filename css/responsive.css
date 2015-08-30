@@ -32,3 +32,12 @@
 
 
 }
+
+@media (max-width: 768px) {
+
+  #projects li {
+  width: 35%;
+  display: inline-block;
+  margin: 0;
+  padding: 0 7.5% 2.5%;
+}

@@ -253,6 +253,7 @@ input[type="text"] {
 
 textarea {
   width: 100%;
+  max-width: 100%;
   margin: 20px 0;
   display: block;
 }
@@ -351,7 +352,7 @@ a:hover {
 
 input, textarea {
   background-color: #dfdfdf;
-  color: #ccc;
+  color: #474747;
 }
 
 footer {

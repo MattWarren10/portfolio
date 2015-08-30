@@ -232,6 +232,22 @@ nav ul li a {
 
 
 
+/*============CONTACT FORM============*/
+
+#form {
+  margin: 0 auto;
+  width: 90%;
+}
+
+input[type="text"] {
+  width: 250px;
+}
+
+textarea {
+  width: 250px;
+}
+
+
 
 
 /*============FOOTER============*/

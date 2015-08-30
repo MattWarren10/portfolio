@@ -235,16 +235,38 @@ nav ul li a {
 /*============CONTACT FORM============*/
 
 #form {
+  width: 300px;
   margin: 0 auto;
-  width: 90%;
+}
+
+#form h3 {
+  text-align: center;
+  padding: 0;
+  margin: 20px;
 }
 
 input[type="text"] {
-  width: 250px;
+  width: 100%;
+  margin: 10px 0;
 }
 
 textarea {
-  width: 250px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+input, textarea {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+
+}
+button {
+  width: 210px;
+  margin: 10px 15%;
+  border: 3px;
+  border-radius: 3px;
+  padding: 5px;
 }
 
 
@@ -254,11 +276,12 @@ textarea {
 
 footer {
   text-align: center;
+  margin-top: 50px;
 }
 
 /*============COLORS============*/
 body {
-  color: #fff;
+  color: #dfdfdf;
   
 }
 
@@ -324,7 +347,22 @@ a:hover {
   color:#ccc;
 }
 
+input, textarea {
+  background-color: #dfdfdf;
+  color: #ccc;
+}
+
 footer {
   color:#777;
 }
+
+button {
+  background-color: #222;
+  color: #dfdfdf;
+  border: solid 2px #dfdfdf;
+}
+
+button:hover {
+  background-color: #dfdfdf;
+  color: #222; }
 

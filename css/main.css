@@ -247,12 +247,14 @@ nav ul li a {
 
 input[type="text"] {
   width: 100%;
-  margin: 10px 0;
+  margin: 20px 0;
+  display: block;
 }
 
 textarea {
   width: 100%;
-  margin: 10px 0;
+  margin: 20px 0;
+  display: block;
 }
 
 input, textarea {

@@ -115,10 +115,10 @@ nav ul li a {
 }
 
 #projects li {
-  width: 35%;
+  width: 30%;
   display: inline-block;
   margin: 0;
-  padding: 0 7.5% 2.5%;
+  padding: 0 10% 2.5%;
 
 }
 

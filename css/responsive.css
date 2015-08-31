@@ -23,10 +23,6 @@
     padding: 0;
   }
 
-/*============REMOVE BOTTOM-BORDER============*/
-  #contact .constraint ul {
-    border-bottom: dotted 1px #dfdfdf;
-}
 
 
 /*============CHANGE #CONTACT LIST ITEM TO 8% MARGIN============*/
@@ -41,13 +37,20 @@
 
 }
 
-/*============CENTER #PROJECTS LIST ITEM UP TO 768PX============*/
 
 @media (max-width: 768px) {
+
+
+/*============CENTER #PROJECTS LIST ITEM UP TO 768PX============*/
 
   #projects li {
   width: 35%;
   display: inline-block;
   margin: 0;
   padding: 0 7.5% 2.5%;
+}
+
+/*============REMOVE BOTTOM-BORDER============*/
+  #contact .constraint ul {
+    border-bottom: dotted 1px #dfdfdf;
 }

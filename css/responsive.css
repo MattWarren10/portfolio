@@ -15,6 +15,7 @@
   float: left;
 
   }  
+/*============CHANGE WIDTH OF UL TO 320PX============*/
 
   .constraint {
     width: 320px;
@@ -22,6 +23,13 @@
     padding: 0;
   }
 
+/*============REMOVE BOTTOM-BORDER============*/
+  #contact .constraint ul {
+    border-bottom: dotted 1px #dfdfdf;
+}
+
+
+/*============CHANGE #CONTACT LIST ITEM TO 8% MARGIN============*/
   #contact .constraint ul li {
     display: inline-block;
     max-width: 25%;
@@ -32,6 +40,8 @@
 
 
 }
+
+/*============CENTER #PROJECTS LIST ITEM UP TO 768PX============*/
 
 @media (max-width: 768px) {
 

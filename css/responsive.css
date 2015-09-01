@@ -52,5 +52,5 @@
 
 /*============REMOVE BOTTOM-BORDER============*/
   #contact .constraint ul {
-    border-bottom: dotted 1px #dfdfdf;
+    border-bottom: none;
 }

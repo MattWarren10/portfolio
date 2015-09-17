@@ -15,7 +15,8 @@ h1 {
   margin: 0;
   padding: 0;
   font-family: 'Biryani', verdana, helvetica, arial, sans-serif;
-  font-weight: 900;
+  font-weight: 200;
+  font-size: 1.4em;
 }
 
 h3 {
@@ -44,7 +45,6 @@ p {
 
 /*============HEADER============*/
 header {
-  float: left;
   margin-bottom: 20px;
   padding: 5px 0 0 0;
   width: 100%;
@@ -53,13 +53,9 @@ header {
 }
 
 #logo {
-  width: 60%;
-  text-align: left;
+  text-align: center;
   margin: 0;
-  padding-left: 2.5%;
   line-height: 1.5em;
-  float: left;
-
 }
 
 .sub-header {
@@ -71,6 +67,7 @@ header {
   font-weight: 200;
   line-height: 1em;
   float: left;
+  display: none;
   
 }
 
@@ -79,7 +76,7 @@ header {
 /*============NAVIGATION============*/
 
 nav {
-  text-align: left;
+  text-align: center;
   display: block;
   clear:left;
 
@@ -115,8 +112,7 @@ nav ul li a {
 }
 
 #projects li {
-  width: 20%;
-  display: inline-block;
+  display: block;
   margin: 0;
   padding: 0 15% 2.5%;
 
@@ -133,39 +129,40 @@ nav ul li a {
   float: left;
 }
 
+#projects p,
 #projects p:hover {
   text-decoration: none;
 }
 
 
 
-/*============ABOUT============*/
+/*============MEET============*/
 
-#about {
+#meet {
   width: 100%;
   margin: 0 auto;
 }
 
-#about h3 {
+#meet h3 {
   padding: 5% 0 0 5%;
 
 }
 
-#about h4 {
+#meet h4 {
 
 }
 
-#about h4 {
+#meet h4 {
   padding: 0 2% 0 5%;
   margin-top: 0;
 }
 
-#about p {
+#meet p {
   padding: 0 5% 5% 5%;
   margin: 0;
 }
 
-#about p.justify {
+#meet p.justify {
   text-align: justify;
 }
 
@@ -179,11 +176,11 @@ nav ul li a {
 
 /*============SOCIAL MEDIA LINKS============*/
 
-#contact {
+#connect {
   clear: left;
 }
 
-#contact h3 {
+#connect h3 {
   padding: 5% 0 0 5%;
 }
 
@@ -193,15 +190,13 @@ nav ul li a {
   padding: 0;
 }
 
-#contact .constraint ul {
+#connect .constraint ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  border-bottom: dotted 1px #dfdfdf;
-
 }
 
-#contact .constraint ul li {
+#connect .constraint ul li {
   display: inline-block;
   max-width: 25%;
   padding: 0;
@@ -209,7 +204,7 @@ nav ul li a {
   
 }
 
-#contact .constraint img {
+#connect .constraint img {
     width: 11px;
     margin: 25px 0;
     padding: 5px; 
@@ -287,13 +282,12 @@ footer {
 /*============COLORS============*/
 body {
   color: #dfdfdf;
+  background: #dfdfdf;
   
 }
 
 header {
-  background: #333;
-  color: #dfdfdf;
-  border-bottom: #474747 5px solid;
+  color: #474747;  
 }
 
 h4 {
@@ -301,53 +295,34 @@ h4 {
 }
 
 a {
-  color: #ccc;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #ccc;
+  color: #474747;
   text-decoration: none;
 }
 
 a:hover {
-  color: #fff;
+  color: #777;
+}
+
+a:visited {
+  
+}
+
+a:active {
+  color: #777;
+  text-decoration: underline;
 }
 
 .project-header {
   background-color: #dfdfdf;
   color: #474747;
-
 }
 
-#projects {
-  background: #dfdfdf;
-  color:#474747;
-}
-
-#projects a {
-  color: #474747;
-}
-
-#projects a:hover {
-  color: #777;
-}
-
-#projects a:visited {
-  
-}
-
-#projects a:active {
-  color: #777;
-  text-decoration: underline;
-}
-
-#about {
+#meet {
   background: #474747;
   color: #dfdfdf;
 }
 
-#contact {
+#connect {
   background: #222;
   color:#ccc;
 }

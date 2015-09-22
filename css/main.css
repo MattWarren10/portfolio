@@ -206,7 +206,7 @@ nav ul li a {
 
 .social-icon {
     width: 11px;
-    margin: 25px 0;
+    margin: 20px 0;
     padding: 5px; 
     min-width: 11px;
     max-width: 11px;
@@ -260,7 +260,7 @@ input, textarea {
 }
 button {
   width: 210px;
-  margin: 10px 15%;
+  margin: 0 15% 20px;
   border: 3px;
   border-radius: 3px;
   padding: 5px;

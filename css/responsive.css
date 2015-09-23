@@ -1,74 +1,150 @@
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 500px) {
+
+  header {
+    background-color: #222;
+    color: #ccc;
+  }
+
+  #logo {
+    box-sizing: border-box;
+    width: 45%;
+    display: inline-block;
+    padding-left: 10%;
+    text-align: left;
+  }
+
+  nav {
+    box-sizing: border-box;
+    width: 45%;
+    display: inline-block;
+    text-align: right;
+  }
+
+  nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    color: #dfdfdf;
+  }
+
+  nav ul li a:active {
+    color: #777;
+    text-decoration: underline;
+  }
 
   #margin-auto {
     margin: 0 auto;
-    width: 560px;
   }
 
   #projects li {
     display: inline-block;
-    margin: 0 0 10%;
-    width: 250px;
+    margin: 0 2.5% 10%;
+    width: 45%;
   }
 
-  #projects li:nth-child(odd) {
-    margin-left: 10px;
-    margin-right: 20px;
-  }
-
-  #projects li:nth-child(even) {
-    margin-left: 20px;
-    margin-right: 10px;
-  }
-  
-}
-
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 600px) {
 
   #margin-auto {
     margin: 0 auto;
-    width: 760px;
+    max-width: 600px;
   }
-
-  #projects li {
-    display: inline-block;
-    margin: 0 0 10%;
-    width: 250px;
-  }
-
-  #projects li:nth-child(odd) {
-    margin-left: 80px;
-    margin-right: 50px;
-  }
-
-  #projects li:nth-child(even) {
-    margin-left: 50px;
-    margin-right: 80px;
-  }
-  
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 660px) {
+  #side {
+    background-color: #474747;
+  }
+
+  #meet {
+    display: inline-block;
+    width: 45%;
+  }
+
+  #contact {
+    background: #474747;
+    color: #dfdfdf;
+    display: inline-block;
+    width: 50%
+  }
+
+  button {
+    background-color: #474747;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  
   header {
     display: fixed;
+    margin-bottom: 0;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #logo {
+    text-align: left;
+    padding-left: 5%;
+  }
+
+  #margin-auto {
+    margin-top: 20px;
   }
 
   #main {
     display: inline-block;
-    height: 500px;
+    height: 600px;
+    width: 60%;
     overflow: scroll;
     float: left;
   }
 
   #side {
     display: inline-block;
-    height: 500px;
-    width: 320px;
+    height: 600px;
+    width: 40%;
     overflow: scroll;
     float: right;
   }
 
+  #meet {
+    display: block;
+    width: 100%;
+  }
+
+  #contact {
+    display: block;
+    width: 100%;
+  }
+
+  #form h3 {
+    padding: 0 0 20px 0;
+  }
+
+  #side,
+  #meet,
+  #contact,
+  button {
+    background: #222;
+    color:#ccc;
+  }
+
   #bottom {
     display: fixed;
+  }
+
+  .constraint {
+    padding-left: 12%;
+    margin: 0;
+  }
+  .constraint a {
+    margin: 0;
+  }
+
+  .social-icon {
+    margin: 2.5% 8% 0;
   }
 }

@@ -49,19 +49,26 @@
 }
 
 @media screen and (min-width: 1080px) {
+  header {
+    display: fixed;
+  }
 
   #main {
     display: inline-block;
-    height: 800px;
+    height: 500px;
     overflow: scroll;
     float: left;
   }
 
   #side {
     display: inline-block;
-    height: 800px;
+    height: 500px;
     width: 320px;
     overflow: scroll;
     float: right;
+  }
+
+  #bottom {
+    display: fixed;
   }
 }

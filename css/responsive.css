@@ -1,1 +1,67 @@
+@media screen and (min-width: 560px) {
 
+  #margin-auto {
+    margin: 0 auto;
+    width: 560px;
+  }
+
+  #projects li {
+    display: inline-block;
+    margin: 0 0 10%;
+    width: 250px;
+  }
+
+  #projects li:nth-child(odd) {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  #projects li:nth-child(even) {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  
+}
+
+@media screen and (min-width: 760px) {
+
+  #margin-auto {
+    margin: 0 auto;
+    width: 760px;
+  }
+
+  #projects li {
+    display: inline-block;
+    margin: 0 0 10%;
+    width: 250px;
+  }
+
+  #projects li:nth-child(odd) {
+    margin-left: 80px;
+    margin-right: 50px;
+  }
+
+  #projects li:nth-child(even) {
+    margin-left: 50px;
+    margin-right: 80px;
+  }
+  
+}
+
+@media screen and (min-width: 1080px) {
+
+  #main {
+    display: inline-block;
+    height: 800px;
+    overflow: scroll;
+    float: left;
+  }
+
+  #side {
+    display: inline-block;
+    height: 800px;
+    width: 320px;
+    overflow: scroll;
+    float: right;
+  }
+}

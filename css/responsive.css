@@ -75,7 +75,12 @@
 }
 
 @media screen and (min-width: 980px) {
-  
+  html, 
+  body {
+    background-color: #222;
+    overflow: hidden;
+  }
+
   header {
     display: fixed;
     margin-bottom: 0;
@@ -90,23 +95,24 @@
     padding-left: 5%;
   }
 
-  #margin-auto {
-    margin-top: 20px;
-  }
-
   #main {
     display: inline-block;
     height: 600px;
     width: 60%;
-    overflow: scroll;
+    overflow: auto;
     float: left;
+    background-color: #dfdfdf
+  }
+
+  #margin-auto {
+    margin-top: 20px;
   }
 
   #side {
     display: inline-block;
     height: 600px;
     width: 40%;
-    overflow: scroll;
+    overflow: auto;
     float: right;
   }
 
@@ -147,4 +153,5 @@
   .social-icon {
     margin: 2.5% 8% 0;
   }
+
 }

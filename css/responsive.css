@@ -79,15 +79,16 @@
   body {
     background-color: #222;
     height: 100%;
+    overflow: -moz-scrollbars-none;
   }
 
   header {
     position: fixed;
     top: 0;
     left: 0;
-    margin-bottom: 0;
     width: 58%;
     z-index: 1;
+    margin-bottom: 0;
   }
 
   nav {
@@ -99,27 +100,42 @@
     padding-left: 5%;
   }
 
+
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar,
+  #main::-webkit-scrollbar,
+  #side::-webkit-scrollbar { 
+    display: none; 
+    width: 0 !important;
+    background:transparent;
+  }
   #main {
     display: inline-block;
     width: 58%;
     position: absolute;
     top: 40px;
     left: 0;
+    right: -15px;
     overflow: auto;
     float: left;
     background-color: #dfdfdf;
     height: 100vh;
+    padding: 2% 0 0 0;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
   }
 
-  #margin-auto {
-    margin-top: 20px;
+  #projects {
+    padding: 0;
   }
 
   #side {
     display: inline-block;
     width: 42%;
-    overflow: scroll;
+    overflow: auto;
     float: right;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
   }
 
   #meet {

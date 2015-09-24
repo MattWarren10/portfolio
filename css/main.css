@@ -226,8 +226,8 @@ button {
 
 #top {
   position: fixed;
-  bottom: 5px;
-  right: 5px;
+  bottom: 1px;
+  right: 1px;
   width: 30px;
   height: 30px;
   background-color: rgba(204, 204, 204, .5);

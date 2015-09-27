@@ -115,8 +115,8 @@ nav ul li a {
 
 #projects li {
   display: block;
-  width: 80%;
-  margin: 0 10% 10%;
+  width: 60%;
+  margin: 0 20% 10%;
 }
 
 #projects li img {
@@ -226,8 +226,8 @@ button {
 
 #top {
   position: fixed;
-  bottom: 1px;
-  right: 1px;
+  bottom: 7px;
+  right: 7px;
   width: 30px;
   height: 30px;
   background-color: rgba(204, 204, 204, .5);

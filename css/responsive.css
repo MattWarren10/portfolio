@@ -83,6 +83,7 @@
   body {
     background-color: #222;
     height: 100%;
+    overflow: hidden;
   }
 
   header {
@@ -131,8 +132,8 @@
 
   #side {
     display: inline-block;
-    min-width: 42%;
     max-width: 33%;  
+    min-width: 42%;
     overflow: auto;
     height: 100vh;
     -ms-overflow-style: none;

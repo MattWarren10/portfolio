@@ -129,6 +129,15 @@
     margin: -10% 2.5% 20%;
   }
 
+  #projects li {
+    margin: -10% 2.5% 20%;
+  }
+
+  #projects li:nth-child(1),
+  #projects li:nth-child(2) {
+    margin: 1% 2.5% 20%;
+  }
+
   #side {
     display: inline-block;
     max-width: 33%;  

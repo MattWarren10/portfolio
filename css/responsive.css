@@ -44,7 +44,7 @@
 
   #projects li {
     display: inline-block;
-    margin: -10% 2.5% 20%;
+    margin: 0 2.5% 10%;
     width: 45%;
   }
 
@@ -123,6 +123,10 @@
     padding: 2% 0;
     -ms-overflow-style: none;
     margin: 38px 0 43px;
+  }
+
+  #projects li {
+    margin: -10% 2.5% 20%;
   }
 
   #side {

@@ -40,6 +40,7 @@
 
   #margin-auto {
     margin: 0 auto;
+    max-width: 600px;
   }
 
   #projects li {
@@ -48,28 +49,33 @@
     width: 45%;
   }
 
-@media screen and (min-width: 600px) {
-
-  #margin-auto {
-    max-width: 600px;
-  }
-}
-
 @media screen and (min-width: 660px) {
   #side {
     background-color: #474747;
   }
 
   #meet {
+    margin: auto 0;
     display: inline-block;
-    width: 45%;
+    width: 53%;
+    float: left;
+  }
+
+  #meet p {
+    padding: 0 5% 0 5%;
+    width: 90%;
   }
 
   #contact {
+    margin: auto 0;
+    display: inline-block;
+    width: 46%;
     background: #474747;
     color: #dfdfdf;
-    display: inline-block;
-    width: 50%
+  }
+
+  #form h3 {
+    padding: 5% 0 5% 0;
   }
 
   button {
@@ -151,6 +157,15 @@
     display: block;
     width: 80%;
     margin: 0 auto;
+    float: none;
+  }
+
+  .profile-photo {
+    margin: 20px 35px 20px 5%;
+  }
+
+  #meet p {
+    padding: 0 5% 5% 5%;
   }
 
   h4 {

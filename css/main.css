@@ -359,6 +359,10 @@ a:active {
   color: #dfdfdf;
 }
 
+#bottom {
+  background-color: #222;
+}
+
 #connect,
 #contact {
   background: #222;

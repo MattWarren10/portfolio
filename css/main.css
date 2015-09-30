@@ -128,6 +128,7 @@ nav ul li a {
   max-width: 100%;
   border-radius: 1.5%;
   box-shadow: 0 3px 2px .5px rgba(34, 34, 34, .2);
+  background-color: white;
 }
 
 #projects li:nth-child(2n+1) {

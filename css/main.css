@@ -391,7 +391,8 @@ button {
   border: solid 2px #dfdfdf;
 }
 
-button:hover {
+button:hover,
+button:active {
   background-color: #dfdfdf;
   color: #222; }
 

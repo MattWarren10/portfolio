@@ -119,6 +119,11 @@ nav ul li a {
   margin: 0 20% 10%;
 }
 
+#projects li:hover {
+  background: linear-gradient(#818181, transparent, 90%),
+              no-repeat;
+}
+
 #projects li img {
   max-width: 100%;
   border-radius: 1.5%;
@@ -271,35 +276,35 @@ button {
 }
 
 #facebook-logo{
-  background-image: url("../images/facebook-logo.png");
+  background-image: url("../images/social-media/facebook-logo.png");
 }
 
 #twitter-logo{
-  background-image: url("../images/twitter-logo.png");
+  background-image: url("../images/social-media/twitter-logo.png");
 }
 
 #linkedin-logo{
-  background-image: url("../images/linkedin-logo.png");
+  background-image: url("../images/social-media/linkedin-logo.png");
 }
 
 #gmail-logo{
-  background-image: url("../images/gmail-logo.png");
+  background-image: url("../images/social-media/gmail-logo.png");
 }
 
 #facebook-logo:hover{
-  background-image: url("../images/facebook-logo-hover.png");
+  background-image: url("../images/social-media/facebook-logo-hover.png");
 }
 
 #twitter-logo:hover{
-  background-image: url("../images/twitter-logo-hover.png");
+  background-image: url("../images/social-media/twitter-logo-hover.png");
 }
 
 #linkedin-logo:hover{
-  background-image: url("../images/linkedin-logo-hover.png");
+  background-image: url("../images/social-media/linkedin-logo-hover.png");
 }
 
 #gmail-logo:hover{
-  background-image: url("../images/gmail-logo-hover.png");
+  background-image: url("../images/social-media/gmail-logo-hover.png");
 }
 
 #facebook-logo,

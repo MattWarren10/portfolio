@@ -48,6 +48,10 @@
     margin: 0 2.5% 10%;
     width: 45%;
   }
+
+  #projects li:nth-child(2n) {
+    float: right;
+  }
 }  
 
 @media screen and (min-width: 660px) {

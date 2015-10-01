@@ -131,9 +131,8 @@ nav ul li a {
   background-color: white;
 }
 
-#projects li:nth-child(2n+1) {
+#projects li:nth-child(2n) {
   clear: left;
-  float: left;
 }
 
 #projects p,

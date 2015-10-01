@@ -133,6 +133,7 @@ nav ul li a {
 
 #projects li:nth-child(2n) {
   clear: left;
+  float: left;
 }
 
 #projects p,

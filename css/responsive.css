@@ -49,7 +49,8 @@
     width: 45%;
   }
 
-  #projects li:nth-child(2n) {
+  #projects li:nth-child(2n+2) {
+    clear: left;
     float: right;
   }
 }  

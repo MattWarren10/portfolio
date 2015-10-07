@@ -36,11 +36,12 @@ ul {
 }
 
 li {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 label {
 	color: #444;
+	margin-left: 10px;
 }
 
 #red-button {
@@ -57,6 +58,8 @@ label {
 	background-color: #bf0000;
 	box-shadow: 0 1.5px 0 1px #bf0000;
 }
+
+
 
 #progress-wrap {
 	box-sizing: border-box;
@@ -77,12 +80,13 @@ label {
 
 #progress-text {
 	padding: 5px 0 0 10px;
+	height: 30px;
 }
 
 footer {
 	color: #eee;
 	text-align: center;
-	border-bottom: 3px solid #bcbcbc;
+	border-bottom: 1px solid #bcbcbc;
 	position: absolute;
 	bottom: 0;
 	left: 0;

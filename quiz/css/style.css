@@ -37,3 +37,9 @@ label {
 	width: 50%;
 	border-radius: 2%;
 }
+
+footer {
+	color: #eee;
+	text-align: center;
+	border-bottom: 3px solid #bcbcbc;
+}

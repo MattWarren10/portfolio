@@ -51,7 +51,8 @@ label {
 	width: 100%;
 	border: none;
 	box-shadow: 0 1.5px 0 1px #bf0000;
-	margin-top: 20px;
+	margin: 20px 0 40px;
+	padding: 5px 0;
 }
 
 #red-button:hover {
@@ -59,13 +60,10 @@ label {
 	box-shadow: 0 1.5px 0 1px #bf0000;
 }
 
-
-
 #progress-wrap {
 	box-sizing: border-box;
 	border: 2px solid #ccf0f0;
 	border-radius: 15px;
-	margin-top: 40px;
 	height: 34px;
 }
 

@@ -1,4 +1,23 @@
 body {
 	font-family: 'Lato', sans-serif;
-	
+	background-color: white;
 }
+
+#wrap {
+	width: 100%;
+}
+
+h1 {
+	font-weight: 400;
+	color: #ff4c4c;
+}
+
+h2 {
+	font-weight: 300;
+	color: #bcbcbc;
+}
+
+label {
+	color: #444;
+}
+

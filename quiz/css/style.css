@@ -84,9 +84,8 @@ label {
 footer {
 	color: #eee;
 	text-align: center;
-	border-bottom: 1px solid #bcbcbc;
-	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
+	margin-top: 40px;
 }

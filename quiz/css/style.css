@@ -1,6 +1,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 	background-color: white;
+	margin: 0;
 }
 
 #wrap {
@@ -17,13 +18,21 @@ h2 {
 	color: #bcbcbc;
 }
 
+ul {
+	list-style: none;
+}
+
 label {
 	color: #444;
 }
 
 #red-button {
-	color: #c92626;
+	background-color: #c92626;
+	color: white;
+	border-radius: 5px;
 	width: 100%;
+	border: none;
+	box-shadow: 0 1.5px 0 1px #bf0000;
 }
 
 #progress-wrap {

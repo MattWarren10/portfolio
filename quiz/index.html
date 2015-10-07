@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 	<meta charset="utf-8">
 	<title>Quiz App</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<!-- wrap all contents inside -->
 	<div id="wrap">
 		<h1>Quiz app</h1>
 		<h2>Select a quiz</h2>
 		<form action="#" method="get">
-			<input type="radio" id="choice0">
-			<input type="radio" id="choice1">
-			<input type="radio" id="choice2">
-			<input type="radio" id="choice3">
+			<li class="list-item">
+				<label for="choice0">NBA</label>
+				<input type="radio" id="choice0">
+			</li>
+			<li class="list-item">
+				<label for="choice1">American History</label>
+				<input type="radio" id="choice1">
+			</li>
+			<li class="list-item">
+				<label for="choice2">Steve Jobs</label>
+				<input type="radio" id="choice2">
+			</li>
+			<li class="list-item">
+				<label for="choice3">Colors</label>
+				<input type="radio" id="choice3">
+			</li>			
 		</form>
-	</div>
+	</div> <!-- end wrap -->
+
 	<footer>
 		&copy; <a href="../">Matt Warren</a>
 	</footer>

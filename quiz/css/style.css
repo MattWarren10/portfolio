@@ -21,7 +21,19 @@ label {
 	color: #444;
 }
 
+#red-button {
+	color: #c92626;
+	width: 100%;
+}
+
 #progress-wrap {
 	box-sizing: border-box;
 	border: 1px solid #ccf0f0;
+	border-radius: 2%;
+}
+
+#progress {
+	background-color: #00b3b3;
+	width: 50%;
+	border-radius: 2%;
 }

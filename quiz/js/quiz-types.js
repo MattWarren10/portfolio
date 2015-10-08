@@ -1,4 +1,4 @@
-var quiz-types = {
+var quizTypes = {
 	nba: { 
 		new Question ("In 1996 Kobe Bryant was drafted by which team?", ["Los Angeles Lakers", "Charlotte Hornets", "Orlando Magic", "New York Knicks"], "Charlotte Hornets"),
 		new Question ("What year did David Stern become commissioner?", [1984, 1994, 1989, 1999], 1984),
@@ -27,12 +27,14 @@ var quiz-types = {
 		new Question("More than 24 million colors can be specified through hexadecimal notation" [true, false], false),
 		new Question("In RGB notation, #ff00ff would emit which color?" ["green", "pink", "magenta", "purple"], "magenta")
 	},
-}
+};
 
 function Question (question, choices, answer) {
 	question = question;
 	choices = choices;
 	answer = answer;
-}
+};
+
+$("#progress-wrap").hide();
 
 

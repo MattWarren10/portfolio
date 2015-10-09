@@ -7,7 +7,7 @@ xhr.onreadystatechange = function () {
     for (var i=0; i<quizzes.length; i += 1) {
     	html += '<li class="list-item">';
       html += '<input type="radio" id="choice' + [i] + '">';
-      html += '<label for="choice0">' + employees[i].name + '</label>';
+      html += '<label for="choice' + [i] + '">' + quizzes[i].name + '</label>';
       html += '</li>';
     }
     html += '</ul>';

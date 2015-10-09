@@ -1,0 +1,11 @@
+@media screen and (min-width: 400px) {
+
+	#red-button {
+		width: 150px;
+		float: right;
+	}
+
+	#progress-wrap {
+		clear: right;
+	}
+}

@@ -1,20 +1,35 @@
 $("#progress-wrap").hide();
 
-function Question (question, choices, answer) {
-	this.question = question;
+function qDetail (name, question, choices, answer) {
+	this.name = name;
+	this.question = question
 	this.choices = choices;
 	this.answer = answer;
-	return answer
-};
+}
 
-var quizName = {
-	"americanHistory": [
-		 ["The Declaration of Independence was signed on which date?", ["July 3, 1776", "July 4, 1776", "August 1, 1776", "August 2, 1776"], "August 2, 1776"],
-		 ["Christmas morning 1776 George Washington led 2,400 men to initiate which battle?" ["Trenton", "Valley Forge", "New York", "Fort Necessity"], "Trenton"],
-		 ["Which two presidents died on the same day" ["Jefferson and Washington", "Washington and Addams", "Addams and Jackson", "Addams and Jefferson"], "Addams and Jefferson"],
-		 ["World War II is said to have begun with the German invasion of Poland", [true, false], true],
-		 ["Dwight D. Eisenhower launched the Interstate Highway System", [true, false], true]
-	],
+var quizzes = [
+	{
+		"name": "americanHistory",
+		"questions": 
+		"choices":
+		"answer":
+  	["The Declaration of Independence was signed on which date?", ["July 3, 1776", "July 4, 1776", "August 1, 1776", "August 2, 1776"], "August 2, 1776"],
+	  ["Christmas morning 1776 George Washington led 2,400 men to initiate which battle?" ["Trenton", "Valley Forge", "New York", "Fort Necessity"], "Trenton"],
+	  ["Which two presidents died on the same day" ["Jefferson and Washington", "Washington and Addams", "Addams and Jackson", "Addams and Jefferson"], "Addams and Jefferson"],
+	  ["World War II is said to have begun with the German invasion of Poland", [true, false], true],
+	  ["Dwight D. Eisenhower launched the Interstate Highway System", [true, false], true]
+		
+	},
+	{
+
+	},
+	{
+
+	},
+	{
+
+	},
+
 	"colors": [
 		["Complimentary colors are pairs which cancel each other out", [true, false], true],
 		["Violet has the longest wavelength", [true, false], false],
@@ -36,7 +51,10 @@ var quizName = {
 		["The main course at Reed College which drove Jobs to design multiple typefaces on the Mac was", ["Typography", "Caligraphy", "Composition", "Script typeface"]],	
 		["Jobs and Wozniak used to attend meetings at the Coffeebrew Computer club" [true, false], false]	
 	],
-};
+];
+
+//Change the UI according to each question
+
 
 
 

@@ -1,0 +1,120 @@
+{
+	"name": "American History",
+	"quiz": [
+			{
+				"question": "The Declaration of Independence was signed on which date?",
+				"choices": ["July 3, 1776", "July 4, 1776", "August 1, 1776", "August 2, 1776"],
+				"answer": "August 2, 1776"
+			}, 
+			{
+				"question": "Christmas morning 1776 George Washington led 2,400 men to initiate which battle?",
+				"choices":["Trenton", "Valley Forge", "New York", "Fort Necessity"], 
+				"answer": "Trenton"
+			},
+			{
+				"question": "Which two presidents died on the same day",
+				"choices": ["Jefferson and Washington", "Washington and Addams", "Addams and Jackson", "Addams and Jefferson"], 
+				"answer": "Addams and Jefferson",
+			},
+			{
+				"question": "World War II is said to have begun with the German invasion of Poland",
+				"choices": [true, false],
+				"answer": true
+			},
+			{
+				"question": "Dwight D. Eisenhower launched the Interstate Highway System",
+				"choices": [true, false],
+				"answer": true
+			}
+	]
+},
+{
+	"name": "Colors",
+	"quiz": [
+		{
+			"question": "Complimentary colors are pairs which cancel each other out",
+			"choices": [true, false],
+			"answer": true
+		}, 
+		{
+			"question": "Violet has the longest wavelength",
+			"choices": [true, false],
+			"answer": false
+		},
+		{
+			"question": "The three primary colors are:",
+			"choices": ["red, green, blue", "red, yellow, blue", "red, yellow, green", "magenta, cyan, yellow"],
+			"answer": "red, yellow, blue"
+		},
+		{
+			"question": "More than 24 million colors can be specified through hexadecimal notation",
+			"choices": [true, false],
+			"answer": false
+		},
+		{
+			"question": "In RGB notation, #ff00ff would emit which color?",
+			"choices": ["green", "pink", "magenta", "purple"], 
+			"answer": "magenta"
+		}
+	],
+	},
+{
+	"name": "NBA",
+	"quiz":	[
+		{
+			"question": "In 1996 Kobe Bryant was drafted by which team?",
+			"choices": ["Los Angeles Lakers", "Charlotte Hornets", "Orlando Magic", "New York Knicks"],
+			"answer": "Charlotte Hornets"
+		}, 
+		{
+			"question": "What year did David Stern become commissioner?",
+			"choices": [1984, 1994, 1989, 1999],
+			"answer": 1984
+		},
+		{
+			"question": "Which team retired Michael Jordan's jersey, even though Jordan never played for them?",
+			"choices": ["Washington Wizards", "Los Angeles Clippers", "Milwaukee Bucks", "Miami Heat"],
+			"answer": "Miami Heat"
+		},
+		{
+			"question": "Which arena has the largest capacity",
+			"choices": ["United Center", "Madison Square Garden", "Staples Center", "The Palace of Auburn Hills"],
+			"answer": "United Center"
+		},
+		{
+			"question": "Magic Johnson is currently the all-time assist leader",
+			"choices": [true, false], 
+			"answer": false
+		}
+	]
+}
+{
+	"name": "Steve Jobs",
+	"quiz":	[
+		{
+			"question": "Macintosh was launched in what year?",
+			"choices":  [1983, 1984, 1985, 1986],
+			"answer": 1984
+		}, 
+		{
+			"question": "What computer-animated film was produced in 1995 largely on part of Jobs' financial contribution?",
+			"choices": ["Lion King", "The Jungle Book", "Toy Story", "A Bug's Life"],
+			"answer": "Toy Story"
+		},
+		{
+			"question": "Jobs was mainly Lutheran throughout his lifetime",
+			"choices":[true, false],
+			"answer": false
+		},
+		{
+			"question": "The main course at Reed College which drove Jobs to design multiple typefaces on the Mac was",
+			"choices": ["Typography", "Caligraphy", "Composition", "Script typeface"],
+			"answer": "Caligraphy",
+		},
+		{
+			"question": "Jobs and Wozniak used to attend meetings at the Coffeebrew Computer club",
+			"choices": [true, false], 
+			"answer": false
+		}
+	]
+}

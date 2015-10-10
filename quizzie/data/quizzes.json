@@ -15,7 +15,7 @@
 				{
 					"question": "Which two presidents died on the same day",
 					"choices": ["Jefferson and Washington", "Washington and Addams", "Addams and Jackson", "Addams and Jefferson"], 
-					"answer": "Addams and Jefferson",
+					"answer": "Addams and Jefferson"
 				},
 				{
 					"question": "World War II is said to have begun with the German invasion of Poland",
@@ -57,8 +57,8 @@
 				"choices": ["green", "pink", "magenta", "purple"], 
 				"answer": "magenta"
 			}
-		],
-		},
+		]
+	},
 	{
 		"name": "NBA",
 		"questions":	[
@@ -88,7 +88,7 @@
 				"answer": "false"
 			}
 		]
-	}
+	},
 	{
 		"name": "Steve Jobs",
 		"questions":	[
@@ -110,7 +110,7 @@
 			{
 				"question": "The main course at Reed College which drove Jobs to design multiple typefaces on the Mac was",
 				"choices": ["Typography", "Caligraphy", "Composition", "Script typeface"],
-				"answer": "Caligraphy",
+				"answer": "Caligraphy"
 			},
 			{
 				"question": "Jobs and Wozniak used to attend meetings at the Coffeebrew Computer club",

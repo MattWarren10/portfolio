@@ -19,13 +19,13 @@
 				},
 				{
 					"question": "World War II is said to have begun with the German invasion of Poland",
-					"choices": [true, false],
-					"answer": true
+					"choices": ["true", "false"],
+					"answer": "true"
 				},
 				{
 					"question": "Dwight D. Eisenhower launched the Interstate Highway System",
-					"choices": [true, false],
-					"answer": true
+					"choices": ["true", "false"],
+					"answer": "true"
 				}
 		]
 	},
@@ -34,13 +34,13 @@
 		"questions": [
 			{
 				"question": "Complimentary colors are pairs which cancel each other out",
-				"choices": [true, false],
-				"answer": true
+				"choices": ["true", "false"],
+				"answer": "true"
 			}, 
 			{
 				"question": "Violet has the longest wavelength",
-				"choices": [true, false],
-				"answer": false
+				"choices": ["true", "false"],
+				"answer": "false"
 			},
 			{
 				"question": "The three primary colors are:",
@@ -49,8 +49,8 @@
 			},
 			{
 				"question": "More than 24 million colors can be specified through hexadecimal notation",
-				"choices": [true, false],
-				"answer": false
+				"choices": ["true", "false"],
+				"answer": "false"
 			},
 			{
 				"question": "In RGB notation, #ff00ff would emit which color?",
@@ -84,8 +84,8 @@
 			},
 			{
 				"question": "Magic Johnson is currently the all-time assist leader",
-				"choices": [true, false], 
-				"answer": false
+				"choices": ["true", "false"], 
+				"answer": "false"
 			}
 		]
 	}
@@ -104,8 +104,8 @@
 			},
 			{
 				"question": "Jobs was mainly Lutheran throughout his lifetime",
-				"choices":[true, false],
-				"answer": false
+				"choices":["true", "false"],
+				"answer": "false"
 			},
 			{
 				"question": "The main course at Reed College which drove Jobs to design multiple typefaces on the Mac was",
@@ -114,8 +114,8 @@
 			},
 			{
 				"question": "Jobs and Wozniak used to attend meetings at the Coffeebrew Computer club",
-				"choices": [true, false], 
-				"answer": false
+				"choices": ["true", "false"], 
+				"answer": "false"
 			}
 		]
 	}

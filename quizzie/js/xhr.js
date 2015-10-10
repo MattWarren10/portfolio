@@ -11,7 +11,7 @@ xhr.onreadystatechange = function () {
       html += '</li>';
     }
     html += '</ul>';
-    document.getElementByTagName('form').innerHTML = html;
+    document.getElementsByTagName('form').innerHTML = html;
   }
 };
 xhr.send();

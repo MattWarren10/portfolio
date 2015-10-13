@@ -11,7 +11,7 @@ xhr.onreadystatechange = function () {
       html += '</li>';
     }
     html += '</ul>';
-    document.getElementById('choices').innerHTML(html);
+    document.getElementById('choices').innerHTML = html;
   }
 };
 xhr.send();

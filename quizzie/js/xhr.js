@@ -1,3 +1,4 @@
+var uL = document.getElementById('choices');
 var xhr = new XMLHttpRequest();
 xhr.open('GET', '../data/quizzes.json');
 xhr.onreadystatechange = function () {
@@ -10,8 +11,9 @@ xhr.onreadystatechange = function () {
       html += '<label for="choice' + [i] + '">' + quizzes[i].name + '</label>';
       html += '</li>';
     }
+    else if (xhr.readyState < 3)
     html += '</ul>';
-    document.getElementsByTagName('form').innerHTML = html;
+    uL.prepend(html);
   }
 };
 xhr.send();

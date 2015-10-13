@@ -1,4 +1,3 @@
-var uL = document.getElementById('choices');
 var xhr = new XMLHttpRequest();
 xhr.open('GET', '../data/quizzes.json');
 xhr.onreadystatechange = function () {
@@ -12,7 +11,7 @@ xhr.onreadystatechange = function () {
       html += '</li>';
     }
     html += '</ul>';
-    uL.prepend(html);
+    document.getElementById('choices').innerHTMl(html);
   }
 };
 xhr.send();

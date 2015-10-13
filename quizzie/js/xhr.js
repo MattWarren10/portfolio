@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'data/quizzes.json');
+xhr.open('GET', '../data/quizzes.json');
 xhr.onreadystatechange = function () {
   if(xhr.readyState === 4 && xhr.status === 200) {
     var quizzes = JSON.parse(xhr.responseText);

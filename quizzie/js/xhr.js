@@ -11,6 +11,7 @@ xhr.onreadystatechange = function () {
       html += '</li>';
     }
     html += '</ul>';
+    html += '<button id="red-button">SELECT</button>';
     document.getElementById('choices').innerHTML = html;
   }
 };

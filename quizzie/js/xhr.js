@@ -11,7 +11,6 @@ xhr.onreadystatechange = function () {
       html += '<label for="choice' + [i] + '">' + quizzes[i].name + '</label>';
       html += '</li>';
     }
-    else if (xhr.readyState < 3)
     html += '</ul>';
     uL.prepend(html);
   }

@@ -5,7 +5,7 @@ xhr.onreadystatechange = function () {
     var quizzes = JSON.parse(xhr.responseText);
     var html = '<ul>';
     for (var i=0; i<quizzes.length; i += 1) {
-    	html += '<li class="list-item">';
+    	html += '<li class="list-items">';
       html += '<input type="radio" id="choice' + [i] + '">';
       html += '<label for="choice' + [i] + '">' + quizzes[i].name + '</label>';
       html += '</li>';
@@ -16,6 +16,7 @@ xhr.onreadystatechange = function () {
   }
 };
 xhr.send();
+
 
 
 

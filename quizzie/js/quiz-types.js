@@ -15,21 +15,25 @@ $("#progress-wrap").hide();
 var redButton = document.getElementById('red-button');
 var listItems = document.getElementsByClassName('list-items');
 
+
+
 if ($('input[type=radio]:selected')) {
 	var qetQuestions = new XMLHttpRequest();
 	qetQuestions.open('GET', 'data/quizzes.json');
 	qetQuestions.onreadystatechange = function () {
 	  if(qetQuestions.readyState === 4 && qetQuestions.status === 200) {
 	    var quizzes = JSON.parse(qetQuestions.responseText);
-	    function printQuestion () {
-	    	$('h2').text(quizzes[i].questions.question)	
-	    }
+	  	for (i=0; i<quizzes.length; i++) {
+	  		
 
-	    printQuestion.prototype.next = function () {
 
-	    }
+	   	$('h2').text(quizzes[i].questions.question);	
+	    
 
-	    printQuestion.prototype.
+	   }
+	    
+
+	   
 
 	    
 

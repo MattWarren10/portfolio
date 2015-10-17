@@ -74,7 +74,7 @@
 			},
 			{
 				"question": "Which team retired Michael Jordan's jersey, even though Jordan never played for them?",
-				"choices": ["Washington Wizards", "Los Angeles Clippers", "Milwaukee Bucks", "Miami Heat"],
+				"choices": ["Washington Wizards", "Los Angeles Lakers", "New York Knicks", "Miami Heat"],
 				"answer": "Miami Heat"
 			},
 			{

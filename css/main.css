@@ -276,8 +276,8 @@ button {
    
 }
 
-#facebook-logo{
-  background-image: url("../images/social-media/facebook-logo.png");
+#treehouse-logo{
+  background-image: url("../images/social-media/treehouse-logo.png");
 }
 
 #twitter-logo{
@@ -288,12 +288,12 @@ button {
   background-image: url("../images/social-media/linkedin-logo.png");
 }
 
-#gmail-logo{
-  background-image: url("../images/social-media/gmail-logo.png");
+#hackerrank-logo{
+  background-image: url("../images/social-media/hackerrank-logo.png");
 }
 
-#facebook-logo:hover{
-  background-image: url("../images/social-media/facebook-logo-hover.png");
+#treehouse-logo:hover{
+  background-image: url("../images/social-media/treehouse-logo-hover.png");
 }
 
 #twitter-logo:hover{
@@ -304,14 +304,14 @@ button {
   background-image: url("../images/social-media/linkedin-logo-hover.png");
 }
 
-#gmail-logo:hover{
-  background-image: url("../images/social-media/gmail-logo-hover.png");
+#hackerrank-logo:hover{
+  background-image: url("../images/social-media/hackerrank-logo-hover.png");
 }
 
-#facebook-logo,
+#treehouse-logo,
 #twitter-logo,
 #linkedin-logo,
-#gmail-logo {
+#hackerrank-logo {
   background-repeat: no-repeat;
   background-size: contain;
 }

@@ -288,8 +288,8 @@ button {
   background-image: url("../images/social-media/linkedin-logo.png");
 }
 
-#hackerrank-logo{
-  background-image: url("../images/social-media/hackerrank-logo.png");
+#github-logo{
+  background-image: url("../images/social-media/github-logo.png");
 }
 
 #treehouse-logo:hover{
@@ -304,14 +304,14 @@ button {
   background-image: url("../images/social-media/linkedin-logo-hover.png");
 }
 
-#hackerrank-logo:hover{
-  background-image: url("../images/social-media/hackerrank-logo-hover.png");
+#github-logo:hover{
+  background-image: url("../images/social-media/github-logo-hover.png");
 }
 
 #treehouse-logo,
 #twitter-logo,
 #linkedin-logo,
-#hackerrank-logo {
+#github-logo {
   background-repeat: no-repeat;
   background-size: contain;
 }

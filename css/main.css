@@ -48,6 +48,13 @@ section {
   margin-left: 10px;
 }
 
+span+span {
+    font-size: 14px;
+    margin-top: -10px;
+    padding-left: 100px;
+    right: 0;
+}
+
 /*============HEADER============*/
 header {
   margin-bottom: 20px;
@@ -156,12 +163,10 @@ nav ul li a {
   margin-top: 0;
 }
 
-#meet p {
-  padding: 0 5% 5% 5%;
+#meet p.justify,
+#contact p.justify {
+  padding: 5% 5% 5% 5%;
   margin: 0;
-}
-
-#meet p.justify {
   text-align: justify;
 }
 
@@ -353,7 +358,7 @@ a:active {
 }
 
 #meet {
-  background: #474747;
+  background-color: #474747;
   color: #dfdfdf;
 }
 

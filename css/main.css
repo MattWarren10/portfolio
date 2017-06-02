@@ -43,6 +43,11 @@ p {
   margin: 0;
 }
 
+section {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
 /*============HEADER============*/
 header {
   margin-bottom: 20px;
@@ -56,19 +61,6 @@ header {
   text-align: center;
   margin: 0;
   line-height: 1.5em;
-}
-
-.sub-header {
-  width: 25%;
-  text-align: right;
-  margin: .8em 1em 0 0;
-  padding: 0 2.5%;
-  font-family: 'Biryani', verdana, helvetica, arial, sans-serif;
-  font-weight: 200;
-  line-height: 1em;
-  float: left;
-  display: none;
-  
 }
 
 
@@ -200,7 +192,7 @@ nav ul li a {
   line-height: 1.8em;
 }
 
-input[type="text"] {
+/*input[type="text"] {
   width: 93.3333%;
   margin: 20px 0;
   display: block;
@@ -226,7 +218,7 @@ button {
   border-radius: 3px;
   padding: 5px;
   outline: none;
-}
+}*/
 
 /*============GO TO "TOP"============*/
 
@@ -338,12 +330,12 @@ h4 {
 }
 
 a {
-  color: #474747;
+  color: #0084b4;
   text-decoration: none;
 }
 
-a:hover {
-  color: #777;
+a:hover, a:focus {
+  color: #00aced;
 }
 
 a:visited {

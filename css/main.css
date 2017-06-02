@@ -52,6 +52,7 @@ span+span {
     font-size: 14px;
     margin-top: -10px;
     padding-left: 100px;
+    padding-right: 20px;
     right: 0;
     position: absolute;
 }
@@ -146,6 +147,18 @@ nav ul li a {
 .one-line {
   clear: both;
   box-sizing: border-box;
+}
+
+.column-6 {
+  padding-bottom: 20px;
+}
+
+.column-9 {
+  padding-bottom: 20px;
+}
+
+.date {
+  padding-top: 12px;
 }
 
 

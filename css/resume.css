@@ -5,10 +5,10 @@ body {
     margin: 0 0 80px;
 }
 a {
-    color: #474747;
+    color: #0084b4;
 }
 a:focus, a:hover {
-    color: #f1c40f;
+    color: #00aced;
     text-decoration: none;
 }
 p {
@@ -64,16 +64,17 @@ h4 span:first-child {
     margin-top: 30px;
 }
 #header {
-    background: #dfdfdf;
+    background: #f4f4f4;
     padding: 50px 0;
     margin-bottom: 30px;
+    color: #0084b4;
 }
 #header h2 {
-    color: #95a5a6;
+    color: #bbb	;
     font-size: 24px;
 }
 #content h3 {
-    color: #f1c40f;
+    color: #474747;
     font-size: 26px;
     margin-top: -4px;
 }

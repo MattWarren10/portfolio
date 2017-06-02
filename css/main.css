@@ -1,5 +1,5 @@
 @import 'normalize.css';
-@import url(https://fonts.googleapis.com/css?family=Biryani:200,900|Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Biryani:200,900);
 
 /*============GENERAL============*/
 
@@ -22,8 +22,8 @@ h1 {
 h3 {
   margin: 0;
   padding: 0;
-  font-family: 'Poiret One', sans-serif;
-  font-weight: 200;
+  font-family: 'Biryani', sans-serif;
+  font-weight: 900;
 
 }
 
@@ -140,6 +140,11 @@ nav ul li a {
   text-decoration: none;
 }
 
+/*============RESUME SECTIONS============*/
+
+.one-line {
+
+}
 
 
 /*============MEET============*/
@@ -165,9 +170,13 @@ nav ul li a {
 
 #meet p.justify,
 #contact p.justify {
-  padding: 5% 5% 5% 5%;
+  padding: 0% 5% 5% 5%;
   margin: 0;
   text-align: justify;
+}
+
+#contact p.justify {
+  padding-top: 5%;
 }
 
 .profile-photo {
@@ -177,53 +186,6 @@ nav ul li a {
   border-radius: 100%;
   float: left;
 }
-
-
-
-/*============CONTACT FORM============*/
-#contact {
-  margin: 0;
-}
-
-#form {
-  width: 300px;
-  margin: 0 auto;
-}
-
-#form h3 {
-  text-align: center;
-  padding: 40px 0 20px 0;
-  margin: 0;
-  line-height: 1.8em;
-}
-
-/*input[type="text"] {
-  width: 93.3333%;
-  margin: 20px 0;
-  display: block;
-}
-
-textarea {
-  width: 93.3333%;
-  margin: 20px 0;
-  display: block;
-}
-
-input, textarea {
-  border-radius: 5px;
-  border: none;
-  padding: 10px;
-  outline: none;
-
-}
-button {
-  width: 210px;
-  margin: 0 15% 20px;
-  border: 3px;
-  border-radius: 3px;
-  padding: 5px;
-  outline: none;
-}*/
 
 /*============GO TO "TOP"============*/
 

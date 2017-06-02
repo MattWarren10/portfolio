@@ -53,6 +53,23 @@
     clear: left;
     float: right;
   }
+
+
+  /*============RESUME SECTIONS============*/
+  .column-3 {
+    width: 25%;
+    float: left;
+  }
+
+  .column-9 {
+    width: 75%;
+    float: left;
+  }
+
+
+
+
+  /*============END============*/
 }  
 
 @media screen and (min-width: 660px) {
@@ -173,10 +190,6 @@
 
   #meet p, #contact p {
     padding: 0 5% 5% 5%;
-  }
-
-  h4 {
-    color: #ccc;
   }
 
   #contact {

@@ -62,6 +62,13 @@
     position: relative;
   }
 
+  .column-6 {
+    width: 50%;
+    float: left;
+    position: relative;
+    padding-bottom: 20px;
+  }
+
   .column-9 {
     width: 75%;
     float: left;

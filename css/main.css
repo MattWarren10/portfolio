@@ -53,6 +53,7 @@ span+span {
     margin-top: -10px;
     padding-left: 100px;
     right: 0;
+    position: absolute;
 }
 
 /*============HEADER============*/
@@ -143,11 +144,12 @@ nav ul li a {
 /*============RESUME SECTIONS============*/
 
 .one-line {
-
+  clear: both;
+  box-sizing: border-box;
 }
 
 
-/*============MEET============*/
+/*============SIDE============*/
 
 #side {
   display: inline-block;
@@ -325,10 +327,6 @@ a:active {
 
 #meet {
   background-color: #474747;
-  color: #dfdfdf;
-}
-
-.email {
   color: #dfdfdf;
 }
 

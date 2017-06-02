@@ -59,13 +59,17 @@
   .column-3 {
     width: 25%;
     float: left;
+    position: relative;
   }
 
   .column-9 {
     width: 75%;
     float: left;
+    position: relative;
+    min-height: 1px;
   }
 
+  
 
 
 

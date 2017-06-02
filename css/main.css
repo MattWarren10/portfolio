@@ -149,6 +149,10 @@ nav ul li a {
 
 /*============MEET============*/
 
+#side {
+  display: inline-block;
+}
+
 #meet {
   width: 100%;
   margin: 0 auto;

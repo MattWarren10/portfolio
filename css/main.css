@@ -150,11 +150,14 @@ nav ul li a {
 }
 
 .column-6 {
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
 .column-9 {
   padding-bottom: 20px;
+  margin-top: -17px;
+
 }
 
 .date {
@@ -341,6 +344,10 @@ a:active {
 #meet {
   background-color: #474747;
   color: #dfdfdf;
+}
+
+.dev-lang {
+  color: #ccc;
 }
 
 #bottom {

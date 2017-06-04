@@ -160,6 +160,10 @@ nav ul li a {
 
 }
 
+.skills {
+  margin: 0;
+}
+
 .date {
   padding-top: 12px;
 }

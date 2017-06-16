@@ -47,13 +47,8 @@
     display: inline-block;
     margin: 0 2.5% 10%;
     width: 45%;
+    height: 400px;
   }
-
-  #projects li:nth-child(2n+2) {
-    clear: left;
-    float: right;
-  }
-
 
   /*============RESUME SECTIONS============*/
   .column-3 {

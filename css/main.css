@@ -132,7 +132,7 @@ nav ul li a {
   background-color: white;
 }
 
-#projects li:nth-child(2n) {
+#projects li:nth-child(odd) {
   clear: left;
   float: left;
 }

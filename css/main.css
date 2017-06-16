@@ -152,6 +152,9 @@ nav ul li a {
 .column-6 {
   padding-top: 20px;
   padding-bottom: 20px;
+  width: 50%;
+  float: left;
+  position: relative;
 }
 
 .column-9 {

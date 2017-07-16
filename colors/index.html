@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Colors: RGBA to Hex</title>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+  <body style="background-color: rgba(24, 128, 96, .5);">
+  <div id="left">
+      <div id="holder">
+        <h1>Colors</h1>
+         <form>
+
+              <!--RED-->
+              <div class="range-holder">
+               <label class="letter" for="r">R</label>
+               <input type="text" id="r" class="rgba" placeholder="128" onClick="this.select();"> 
+               <input type="range" id="red" class="range" min="0" max="255" orient="vertical">               
+              </div>
+
+              <!--GREEN-->
+              <div class="range-holder">
+                <label class="letter" for="g">G</label>
+                <input type="text" id="g" class="rgba" placeholder="128" onClick="this.select();"> 
+                <input type="range" id="green" class="range" min="0" max="255" orient="vertical">
+              </div>
+
+              <!--BLUE-->
+              <div class="range-holder">
+                <label class="letter" for="b">B</label>
+                <input type="text" id="b" class="rgba" placeholder="128" onClick="this.select();"> 
+                <input type="range" id="blue" class="range" min="0" max="255" orient="vertical">
+              </div>
+
+              <!--ALPHA-->
+              <div class="range-holder">
+                <label class="letter" for="a">A</label>
+                <input type="text" id="a" class="rgba" placeholder=".50" onClick="this.select();"> 
+                <input type="range" id="alpha" class="range" min="0" max="100" orient="vertical">
+              </div>
+
+            <!--HEX INPUT-->            
+              <label for="hex" class="hex-label">Hex:</label>
+              <input type="text" id="hex" placeholder="#000000" onClick="this.select();">  
+                                    
+            <!--BUTTONS-->
+              <button id="save-color" class="holder-buttons" onclick="stopBrowserRefresh(event)">Save Color</button>
+              <button id="get-inverse" class="holder-buttons" onclick="stopBrowserRefresh(event)">Get Inverse</button>
+              <button id="random-color" class="holder-buttons" onclick="stopBrowserRefresh(event)">Random Color</button>            
+        </form>
+        <footer><a href="../index.html" title="mattwarren.us">&copy; Matt Warren</a></footer>
+      </div><!--ENDS HOLDER-->
+      </div>
+      <div id="right">
+      <!-- SAVE COLOR HOLDER -->
+      <div id="save-color-holder">
+          <button id="saved-buttons" class="select" onclick="stopBrowserRefresh(event)">Select</button>
+          <button id="saved-buttons" class="clear-all" onclick="stopBrowserRefresh(event)">Clear All</button>
+            <ul id="color-list">
+
+                <!-- BUBBLES GO HERE -->
+
+            </ul>
+      </div><!--ENDS HOLDER-->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/save-color.js"></script>
+  </body>
+</html>

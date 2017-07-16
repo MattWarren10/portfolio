@@ -1,0 +1,263 @@
+/*////////////GENERAL////////////*/
+body {
+  margin: 0;
+  font-family: 'Oxygen', Helvetica, arial, sans-serif;
+  color: #c5c5c5;
+}
+
+h1, h2 {
+  color: #c5c5c5;
+  margin: 0;
+  padding: 10px;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Oxygen', Helvetica, arial, sans-serif;
+}
+
+a:link,
+a:visited {
+  color: #c5c5c5;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #a5a5a5;
+}
+
+p {
+  color: #c5c5c5;
+  margin: 0 0 15px 0;
+  padding: 0;
+  font: 1em Helvetica;
+  text-align: center;
+  font-family: 'Oxygen', Helvetica, arial, sans-serif;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*////////////WHITE HOLDER DIV////////////*/
+#holder,
+#save-color-holder {
+  margin: 2% auto;
+  max-width: 300px;
+  background-color: white;
+  border-radius: 1%;
+  box-shadow: 0 1.25px 0 1px #e1e1e1;
+  padding-bottom: 30px;
+}
+#save-color-holder {
+  padding: 0;
+}
+
+
+
+/*////////////INPUT PLACEHOLDER VENDORS////////////*/
+::-webkit-input-placeholder,
+:-moz-placeholder, /* Firefox 18- */
+::-moz-placeholder, /* Firefox 19+ */
+:-ms-input-placeholder { /* IE */
+   color: #aaa;
+}
+
+
+
+/*////////////FORM ELEMENTS////////////*/
+form {
+  width: 100%;
+}
+
+/* Holds span, input range, and input .rgba */
+.range-holder {
+  display:inline-block;
+  width: 40px;
+  margin: 0 5%;
+}
+
+/* Labels above input .rgba text */
+.letter { 
+  text-align: center;
+  display: block;
+}
+
+/* Input text corresponding RGBA inputs*/
+input.rgba[type="text"] {
+  box-sizing: border-box;
+  margin: 20px 0;
+  color: #c5c5c5; 
+  width: 40px;
+}
+
+/* RGBA range input */
+input[type="range"][orient=vertical] {
+  border: none;
+  display: block;
+  margin: 0 auto;
+  writing-mode: bt-lr; /* IE */
+  -webkit-appearance: slider-vertical; /* WebKit */
+  width: 8px;
+  height: 200px;
+  padding: 0;
+}
+
+/* RGBA range input for IE*/
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 3.8px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: rgba(205, 205, 205, 0.8);
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+}
+input[type=range]::-ms-fill-upper {
+  background: rgba(205, 205, 205, 0.8);
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 0.2px #222222, 0px 0px 0px #2f2f2f;
+  border: 1px solid rgba(10, 10, 10, 0.7);
+  height: 20px;
+  width: 20px;
+  border-radius: 15px;
+  background: #f5f5f5;
+  cursor: pointer;
+  height: 3.8px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: rgba(205, 205, 205, 0.8);
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: rgba(205, 205, 205, 0.8);
+}
+
+
+
+/* Input Hex*/
+.hex-label {
+  margin: 20px 0 0;
+  text-align: center;
+  display: block;
+}
+
+input#hex[type="text"] {
+  width: 100px;
+  color: #c5c5c5; 
+  margin: 0 33.3333% 20px;
+}
+
+input.rgba[type="text"],
+input#hex[type="text"] {
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 5px;
+  background-color: #eee;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+input.rgba[type="text"]:focus,
+input#hex[type="text"]:focus {
+  border-radius: 5px;
+  color: #000;
+  background-color: #eee;
+}
+
+.holder-buttons {
+  margin: 0 16.6666% 10px;
+  width: 200px;
+  height: 30px;
+  background-color: #c5c5c5;
+  color: #eee;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Oxygen', Helvetica, arial, sans-serif;
+  outline:none;
+}
+
+.holder-buttons:hover {
+  background-color: #a5a5a5;
+}
+
+/*////////////SAVED-COLOR SECTION////////////*/
+#saved-buttons {
+  text-align: right;
+  border: none;
+  background-color: white;
+  color: #c5c5c5;
+  outline: none;
+  box-sizing: border-box;
+  padding: 4% 4% 0;
+}
+
+#saved-buttons:hover {
+  color: rgba(0, 90, 220, .6);
+}
+
+.select,
+.delete {
+  margin-left: 23%;
+}
+
+.clear-all,
+.cancel{
+  margin-right: 23%
+}
+
+.delete {
+  content: "Delete";
+}
+#saved-buttons.delete:hover {
+  color: firebrick;
+}
+
+/*List of colors and their hex rgba values*/
+#color-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#color-list li {
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgba(100, 220, 230, 1);
+  padding: 0;
+  margin: 10px 8%;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 .5px 1px .5px #5e5e5e;
+  color: black;
+}
+
+input[type=checkbox] {
+  background-color: #c5c5c5;
+  margin: 0 0 0 43%;
+  border: #5e5e5e;
+}
+
+span {
+  display: block;
+  font-size: .5em;
+  text-align: center;
+  text-shadow: 1px #222;
+}
+
+span.saved-hex {
+  margin-top:32px;
+}
+
+

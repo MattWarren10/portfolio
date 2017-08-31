@@ -157,6 +157,11 @@ nav ul li a {
   box-sizing: border-box;
 }
 
+.one-line .section-skills:nth-child(odd) {
+  clear: left;
+  float: left;
+}
+
 .column-6 {
   padding-top: 20px;
   padding-bottom: 20px;

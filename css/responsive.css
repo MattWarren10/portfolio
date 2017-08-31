@@ -29,11 +29,11 @@
     text-decoration: none;
   }
 
-  nav ul li a:hover {
+  h1 a:hover, nav ul li a:hover {
     color: #dfdfdf;
   }
 
-  nav ul li a:active {
+  h1 a:active, nav ul li a:active {
     color: #777;
     text-decoration: underline;
   }

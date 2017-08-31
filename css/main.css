@@ -19,6 +19,14 @@ h1 {
   font-size: 1.4em;
 }
 
+h1 a {
+  color: #ccc;
+}
+
+h1 a:hover {
+  color:;
+}
+
 h3 {
   margin: 0;
   padding: 0;
@@ -154,7 +162,7 @@ nav ul li a {
   padding-bottom: 20px;
   width: 50%;
   float: left;
-  position: relative;
+  position: relative;  
 }
 
 .column-9 {
@@ -328,6 +336,7 @@ h4 {
 a {
   color: #0084b4;
   text-decoration: none;
+  background-color: none;
 }
 
 a:hover, a:focus {
@@ -353,7 +362,7 @@ a:active {
   color: #dfdfdf;
 }
 
-.dev-lang {
+.h4-topic {
   color: #ccc;
 }
 

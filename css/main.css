@@ -339,13 +339,13 @@ h4 {
 }
 
 a {
-  color: #0084b4;
+  color: #00aced;
   text-decoration: none;
   background-color: none;
 }
 
 a:hover, a:focus {
-  color: #00aced;
+  color: #0084b4; 
 }
 
 a:visited {

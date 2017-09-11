@@ -1,3 +1,9 @@
+@media screen and (max-width: 499px) {
+  h1 a {
+    color: #222;
+  }
+}
+
 @media screen and (min-width: 500px) {
 
   header {

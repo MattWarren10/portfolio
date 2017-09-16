@@ -2,6 +2,14 @@
   h1 a {
     color: #222;
   }
+
+  nav ul li a {
+    color: #0084b4;
+  }
+
+  nav ul li a:hover {
+    color: #00aced;
+  }
 }
 
 @media screen and (min-width: 500px) {
